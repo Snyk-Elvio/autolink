@@ -17,8 +17,8 @@ COPY . .
 
 # Add custom labels
 LABEL author="Your Name" version="1.0.0"
-LABEL org.opencontainers.image.source=""
-LABEL io.snyk.containers.image.dockerfile=""
+LABEL org.opencontainers.image.source="https://github.com/Snyk-Elvio/autolink"
+LABEL io.snyk.containers.image.dockerfile="/Dockerfile"
 
 
 # Command to run the application (optional)
