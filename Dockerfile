@@ -17,7 +17,7 @@ COPY . .
 
 # Add custom labels
 LABEL author="Your Name" version="1.0.0"
-LABEL org.opencontainers.image.source="https://github.com/Snyk-Elvio/autolink"
+LABEL org.opencontainers.image.source="git@github.com:Snyk-Elvio/autolink.git"
 LABEL io.snyk.containers.image.dockerfile="/Dockerfile"
 
 
